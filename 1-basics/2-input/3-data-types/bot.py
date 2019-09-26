@@ -1,0 +1,6 @@
+name = input("What is your name human? ")
+age = int(input("What is your age? "))
+height = float(input("How tall are you in meters? "))
+weight = int(input("How much do you weigh in kilograms? "))
+calculatedbmi = weight / (height * height)
+print(name, "your bmi is", calculatedbmi)
