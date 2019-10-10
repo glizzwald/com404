@@ -1,6 +1,10 @@
 print("What phrase do you see?")
-user_input = str(input())
-
+phrase = str(input())
+reverse = ""
 print("Reversing...")
-for position in range (len(user_input)-1,0,1):
-    print(user_input[position])
+for position in range (len(phrase)-1,-1,-1):
+    letter = phrase[position]
+    reverse = reverse + letter
+
+print(reverse)
+
